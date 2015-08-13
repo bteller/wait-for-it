@@ -1,5 +1,5 @@
 waitFor('$', function() {
-  console.log('blah now exists');
+  console.log('Now I can do things!');
 });
 
 window._ = {};
