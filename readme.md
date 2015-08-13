@@ -28,3 +28,7 @@ As a simple wrapper we can easily forget about what order scripts are processed 
 ## How do I use it?
 
 If you want to use it, I recommend you include the `waitFor` code directly inline with your page and then `async` reference every last bit of remaining JavaScript you need to power your site. 
+
+## Coming Soon
+
+Later on I will add the ability to define multiple variables to wait for. I need to prove this out on a real site before doing that though, just in case this doesn't really work. 
