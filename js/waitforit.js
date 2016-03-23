@@ -1,8 +1,10 @@
 function waitFor(thing, callback) {
   var intervalId = setInterval(function() {
-    if (window[thing] != undefined) {
-      clearInterval(intervalId);
-      callback();
+    var exists  = false;
+
+    if (eval(thing) !== undefined) {
+        clearInterval(intervalId);
+        callback();
     }
   }, 10);
 }
